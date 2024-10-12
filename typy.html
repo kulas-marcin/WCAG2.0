@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+    name="description"
+    content="Poznaj ISTQB, jego proces testowy oraz typy testów ISTQB"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="styletypy.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header><h1>Typy testów ISTQB</h1></header>
+      <nav>
+        <div class="button"><a href="index.html">Strona główna</a></div>
+        <div class="button"><a href="proces.html">Proces testowy</a></div>
+        <div class="button"><a href="autor.html">O autorze</a></div>
+      </nav>
+      <main>
+        <article>
+          <h2>Testowanie funkcjonalne - czarna skrzynka</h2>
+          <p>
+            Funkcje jakie system, podsystem lub komponent wykonują mogą być
+            opisane jako wymagania specyfikacji, przypadki użycia lub
+            specyfikacja funkcjonalności, mogą też pozostać nieudokumentowane.
+            Funkcje definiuje się jako czynności wykonywane przez system. Testy
+            funkcjonalne oparte są na tych funkcjonalnościach lub funkcjach
+            (opisanych w dokumentacji lub zrozumiane przez testera) i mogą być
+            wykonane na każdym poziomie testowania (np. testy komponentów oparte
+            są na specyfikacji komponentów).
+          </p>
+          <p>
+            Testowanie funkcjonalne analizuje zewnętrzne zachowanie
+            oprogramowania, traktując ją jak czarną skrzynkę.
+          </p>
+        </article>
+        <article>
+          <h2>Testowanie niefunkcjonalne - określanie parametrów</h2>
+          <p>
+            Testy niefunkcjonalne obejmują, ale nie są ograniczone do; testy
+            wydajności, testy obciążeń, testy przeciążające, testy użyteczności,
+            testy zdolności do operowania, testy utrzymaniowe, testy
+            niezawodności i testy zdolności do pracy na różnych platformach. Ten
+            typ testowania określa JAK system działa.
+          </p>
+          <p>
+            Testy niefunkcjonalne mogą być wykonane na wszystkich poziomach
+            testowych. Pojęcie niefunkcjonalnego testowania opisuje testy
+            wymagane do pomiarów charakterystyk systemu i oprogramowania, które
+            może być ocenione na skali. Przykładem może być czas odpowiedzi
+            podczas weryfikowania wydajności. Te testy mają odniesienie do
+            modelu jakości np. ISO 9126 lub jego następcy ISO 25010.
+          </p>
+        </article>
+        <article>
+          <h2>Testowanie strukturalne - biała skrzynka</h2>
+          <p>
+            Testy strukturalne mogą być wykonane na wszystkich poziomach
+            testowych. Technik strukturalnych używa się w celu wsparcia pomiarów
+            dokładności testowania poprzez ocenę pokrycia danego typu struktury.
+            Pokrycie jest mierzone wykonaniem kodu za pomocą szeregu testów i
+            wyrażone w procentach pokrytych elementów. Na wszystkich poziomach
+            testów, ale szczególnie w testowaniu komponentów i integracji
+            komponentów, możemy używać narzędzi do pomiarów pokrycia elementów
+            kodu tj. deklaracji i decyzji. Testowanie strukturalne może być
+            oparte na architekturze systemu np. hierarchii wywołań. Testowanie
+            strukturalne może również użyte na innych poziomach w tym dla
+            systemu, integracji systemu i poziomu testów akceptacyjnych (np.
+            modeli biznesowych lub struktury menu).
+          </p>
+        </article>
+        <article>
+          <h2>Testowanie regresji/potwierdzające</h2>
+          <p>
+            Kiedy defekt zostaje znaleziony i naprawiony wtedy oprogramowanie
+            powinno być ponownie przetestowane aby upewnić się, że defekt został
+            usunięty. Taką czynność nazywamy testami potwierdzającymi.
+          </p>
+          <p>
+            Testy regresji są powtarzalnymi testami na już przetestowanym
+            wcześniej programie, po modyfikacjach, w celu wykrycia innych
+            defektów wprowadzonych lub nie odkrytych podczas "naprawy". Mogą one
+            znajdować się w testowanym oprogramowaniu jak i w innym powiązanym
+            lub niepowiązanym z nim komponencie. Testy regresji zostają wykonane
+            gdy oprogramowanie, lub środowisko, zostaje zmienione. Głównym
+            zadaniem tych testów jest ocena ryzyka, a nie znalezienie defektów w
+            oprogramowaniu, które poprzednio działało.
+          </p>
+          <p>
+            Testy powinny być powtarzalne jeśli mają służyć do potwierdzenia
+            usunięcia defektu lub towarzyszyć testom regresji. Testy regresji
+            mogą zostać wykonane na wszystkich poziomach testowych i zajmują się
+            funkcjonalnością, parametrami niefunkcjonalnymi i testowaniem
+            strukturalnym. Zbiory testów regresji są wykonywane wiele razy i
+            ogólnie spowalniają rozwój oprogramowania, są więc świetnym
+            kandydatem na automatyzację.
+          </p>
+        </article>
+        <figure>
+            <img src="https://testerzy.pl/assets/img/articles/old/typy-testow-relacje.jpg" alt="Opis typów testów">
+            <figcaption>Typy testów</figcaption>
+        </figure>
+        <article>
+            <h2>Źródła</h2>
+            <ul>
+              <li class="zero">
+                <a
+                  href="https://testerzy.pl/artykuly/typy-testow"
+                  >https://testerzy.pl/artykuly/typy-testow</a
+                >
+              </li>
+            </ul>
+          </article>
+      </main>
+      <aside>
+        <article>
+            <h3>Testowanie funkcjonalne ISTQB - czarna skrzynka</h3>
+            <ul>
+                <li>Testy skupiają się na weryfikacji funkcjonalności systemu.</li>
+                <li>Nie wymagają znajomości wewnętrznej struktury systemu.</li>
+                <li>Użytkownicy końcowi testują, czy system działa zgodnie z wymaganiami.</li>
+                <li>Testowanie oparte na przypadkach użycia oraz wymaganiach biznesowych.</li>
+                <li>Typowe techniki to testowanie równoległe, testowanie graniczne i testowanie ekwiwalentne.</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Testowanie niefunkcjonalne ISTQB - określanie parametrów</h3>
+            <ul>
+                <li>Skupia się na wydajności, bezpieczeństwie i użyteczności systemu.</li>
+                <li>Testowanie wydajnościowe ocenia czas reakcji i obciążenie systemu.</li>
+                <li>Testowanie bezpieczeństwa identyfikuje luki w zabezpieczeniach.</li>
+                <li>Testowanie użyteczności ocenia interfejs użytkownika i doświadczenia użytkowników.</li>
+                <li>Typowe metody to testy obciążeniowe, testy stresowe i testy akceptacyjne.</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Testowanie strukturalne ISTQB - biała skrzynka</h3>
+            <ul>
+                <li>Testy koncentrują się na wewnętrznej strukturze kodu.</li>
+                <li>Wymagają dostępu do kodu źródłowego i znajomości logiki systemu.</li>
+                <li>Testowanie pokrycia kodu ocenia, które części kodu zostały przetestowane.</li>
+                <li>Techniki obejmują testowanie ścieżek, testowanie decyzji i testowanie warunków.</li>
+                <li>Pomaga w identyfikacji błędów, które mogą być niedostrzegane w testach czarnej skrzynki.</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Testowanie regresji/potwierdzające ISTQB</h3>
+            <ul>
+                <li>Skupia się na zapewnieniu, że nowe zmiany w kodzie nie wprowadziły nowych błędów.</li>
+                <li>Wykonywane po każdej aktualizacji, aby potwierdzić stabilność systemu.</li>
+                <li>Testy regresji są powtarzalne i mogą być zautomatyzowane.</li>
+                <li>Umożliwiają weryfikację, czy poprzednie funkcjonalności działają poprawnie po zmianach.</li>
+                <li>Pomagają w szybkiej identyfikacji regresji w kodzie.</li>
+            </ul>
+        </article>
+    </aside>
+      <footer><h3 class="footertxt">© Marcin Kulas 2024</h3></footer>
+    </div>
+  </body>
+</html>

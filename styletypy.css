@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    color: #e0e1dd;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1b2a;
+}
+
+h1 {
+    font-style: oblique;
+    font-size: 45px;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    height: 7%;
+    background-color: #384e68;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #e0e1dd;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    height: 40px;
+    width: 160px;
+    margin: 5px 25px;
+    background-color: #1b263b;
+    color: #e0e1dd;
+    border: 3px #e0e1dd solid;
+    box-shadow: 0px 0px 5px #e0e1dd;
+    border-radius: 50px;
+    font-size: 17px;
+    transition: 0.25s;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #293755;
+    color: #f9faf8;
+    box-shadow: 0px 0px 8px #f9faf8;
+}
+
+main {
+    width: 70%;
+    height: auto;
+    background-color: #1b263b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+p, li {
+    font-size: 19px;
+}
+
+li {
+    margin: 10px;
+}
+
+
+figure {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 450px;
+    margin: 45px;
+    margin-bottom: 5px;
+}
+
+figcaption {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+aside {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color:#25324b ;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 45px;
+}
+
+footer {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1b2a;
+}
+
+.footertxt {
+    font-size: 15px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
